@@ -1,0 +1,48 @@
+/* pages/correct/correct.wxss */
+.backIndex{
+  position: absolute;
+  width: 80rpx;
+  height: 60rpx;
+  top:50rpx;
+}
+.topList{
+  padding-top: 40rpx;
+}
+
+.coin{
+  position: relative;
+  display: inline-flex;
+}
+.coinContainer{
+  width: 240rpx;
+  height: 90rpx;
+  margin-left: 80rpx;
+  top: 40rpx;
+}
+.coinValue{
+  color: #ffffff;
+  position: absolute;
+  font-size: 30rpx;
+  width: 100rpx;
+  left: 170rpx;
+  top: 30rpx;
+  z-index: 1;
+  text-align: right;
+}
+.power { 
+  position: relative;
+  display: inline-flex;
+}
+.powerContainer{
+  width: 180rpx;
+  height: 90rpx;
+  margin-left: 10rpx;
+}
+.powerValue{
+  color: #ffffff;
+  position: absolute;
+  font-size: 30rpx;
+  left: 90rpx;
+  top: 30rpx;
+  z-index: 1;  
+}

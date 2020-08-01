@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/gameCenter/gameCenter",
+    "pages/questionGame/questionGame",
+    "pages/correct/correct"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationStyle": "custom",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "assets/main_select2x.png",
+        "iconPath": "assets/main2x.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "selectedIconPath": "assets/gameCenter_select2x.png",
+        "iconPath": "assets/gameCenter2x.png",
+        "pagePath": "pages/gameCenter/gameCenter"
+      },
+      {
+        "selectedIconPath": "assets/mine_select2x.png",
+        "iconPath": "assets/mine2x.png",
+        "pagePath": "pages/mine/mine"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

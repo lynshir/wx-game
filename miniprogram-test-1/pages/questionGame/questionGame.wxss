@@ -1,0 +1,58 @@
+/* pages/questionGame/questionGame.wxss */
+.backIndex{
+  position: absolute;
+  width: 80rpx;
+  height: 60rpx;
+  top:50rpx;
+}
+.questionTitle{
+  position: absolute;
+  width: 400rpx;
+  height: 80rpx;
+  left: 180rpx;
+  top: 120rpx;
+}
+.title{
+  position: absolute;
+  height: 80rpx;
+  font-size: 40rpx;
+  left: 330rpx;
+  top: 134rpx;
+}
+.noteArea{
+  margin: 200rpx 10rpx 0rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.textNote{
+  padding-top: 30rpx;
+  color: #84BBF9;
+}
+.gift{
+  width: 100rpx;
+  height: 100rpx;
+}
+.prompt{
+  width: 100rpx;
+  height: 100rpx;
+}
+.questionArea{
+  display: flex;
+  justify-content: center;
+  margin: 40rpx;
+}
+.questionText{
+  position: absolute;
+  top: 380rpx;
+  left: 100rpx;
+  width: 520rpx;
+}
+.options{
+  margin: 20rpx auto;
+  width: 600rpx;
+  height: 60rpx;
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  border-radius: 10rpx;
+}

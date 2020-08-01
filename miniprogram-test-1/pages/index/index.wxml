@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<view class="container">
+  <image class="background" src="/assets/baseBackground2x.png"></image>
+  <view class="topList">
+    <view class="coin">
+      <image class="coinContainer" src="/assets/coin2x.png"></image>
+      <span class='coinValue'>0</span>
+      <image class="withdraw" src="/assets/withdraw2x.png" bindtap="withdraw"></image>
+    </view>
+    <view class="power">
+      <image class="powerContainer" src="/assets/power2x.png"></image>
+      <span class='powerValue'><span>10</span>/<span>10</span></span>
+      <image class="add" src="/assets/add2x.png" bindtap="add"></image>
+      <span class='refresh'>19:50</span>
+    </view>
+  </view>
+  <view class="note">
+    <image class="broadcast" src="/assets/broadcast2x.png"></image>
+    <view class="noteDetail">欢迎使用答题小精灵!</view>
+    <image class="mission" src="/assets/mission2x.png"></image>
+  </view>
+  <view class="activity">
+    <image class="fightKing" src="/assets/fightKing2x.png"></image>
+    <image class="freePhone" src="/assets/freePhone2x.png"></image>
+  </view>
+  <view>
+    <view class="getIconPower">
+      <image class="fightKing" src="/assets/getCoin2x.png"></image>
+      <image class="freePhone" src="/assets/getCoin2x.png"></image>
+    </view>
+    <view class="getIconPower">
+      <image class="fightKing" src="/assets/getCoin2x.png"></image>
+      <image class="freePhone" src="/assets/getPower2x.png"></image>
+    </view>
+  </view>
+
+
+
+  <view class="gameBtn" bindtap="startGame">
+     <image class="question" src="/assets/question2x.png"></image>
+     <span class="startGame">开始答题</span>
+     <span class="gameNote">还差<span style="color:red">1</span>关解锁幸运红包</span>
+  </view>
+</view>

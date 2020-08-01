@@ -1,0 +1,19 @@
+<!--pages/correct/correct.wxml-->
+<view class="correctContainer">
+  <image class="background" src="/assets/questionBackground2x.png"></image>
+  <view>
+    <image class="backIndex" src="/assets/backIndex2x.png" bindtap="backIndex"></image>
+    <view class="topList">
+      <view class="coin">
+        <image class="coinContainer" src="/assets/coin2x.png"></image>
+        <span class='coinValue'>0</span>
+      </view>
+      <view class="power">
+        <image class="powerContainer" src="/assets/power2x.png"></image>
+        <span class='powerValue'><span>10</span>/<span>10</span></span>
+        <!-- <span class='refresh'>19:50</span> -->
+      </view>
+    </view>
+
+  </view>
+</view>

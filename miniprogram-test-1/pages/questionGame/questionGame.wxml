@@ -1,0 +1,26 @@
+<!--pages/questionGame/questionGame.wxml-->
+<view class="gameContainer">
+  <image class="background" src="/assets/questionBackground2x.png"></image>
+  <view>
+    <image class="backIndex" src="/assets/backIndex2x.png" bindtap="backIndex"></image>
+    <image class="questionTitle" src="/assets/questionTitle2x.png"></image>
+    <span class="title">第<span style="color:#84BBF9">1</span>关</span>
+  </view>
+  <view class="noteArea">
+    <image class="gift" src="/assets/gift2x.png"></image>
+    <span class="textNote">连胜关数：<span>0</span></span>
+    <span class="textNote">11<span>s</span></span>
+    <image class="prompt" src="/assets/prompt2x.png"></image>
+  </view>
+  <view  class="questionArea">
+    <image style="height: 300rpx;" src="/assets/questionArea2x.png"></image>
+  </view>
+  <span class="questionText">问题内容问题内容问题内容问题内容问题内容问题内容问题内容问题内容</span>
+  <view  class="optionArea">
+    <view class="options" bindtap="checkAnswer">1</view>
+    <view class="options" bindtap="checkAnswer">2</view>
+    <view class="options" bindtap="checkAnswer">3</view>
+    <view class="options" bindtap="checkAnswer">4</view>
+  </view>
+
+</view>
